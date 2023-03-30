@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #dbe9f5;
+}
+
+#Header1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#Header1 h1 {
+  font-size: 108px;
+}
+
+#Header1 p {
+  font-size: 20px;
+}
+
+#left img {
+  height: 500px;
+  margin-left: 200px;
+  margin-top: 100px;
+  border-radius: 15%;
+  border: 2px solid #000000;
+  box-shadow: 1px 1px 10px rgba(1, 1, 1, 1);
+}
+
+main {
+  display: flex;
+}
+
+#Center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35px;
+  margin-top: 80px;
+}
+
+#Center h3 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+#Center p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#Right h3 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+#Right {
+  font-size: 20px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 200px;
+  margin-top: 160px;
+}
+
+#Right p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.dane {
+  font-weight: bold;
+}
+
+button img {
+  height: 40px;
+  background-color: #dbe9f5;
+  border-radius: 100%;
+}
+
+button {
+  color: black;
+  background-color: #dbe9f5;
+  border: none;
+  border-radius: 100%;
+  transition: all, 0.3s;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  transform: scale(1.2);
+}
